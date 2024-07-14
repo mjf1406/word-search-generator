@@ -1,0 +1,30 @@
+{
+    "name": "word-search-generator",
+    "version": "1.0.0",
+    "description": "A package to generate a word search expressed as a 2D array",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "test": "test",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mjf1406/word-search-generator.git"
+    },
+    "keywords": [
+        "wordsearch",
+        "word",
+        "search"
+    ],
+    "author": "Michael Fitzgerald",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mjf1406/word-search-generator/issues"
+    },
+    "homepage": "https://github.com/mjf1406/word-search-generator#readme",
+    "devDependencies": {
+        "@types/node": "^20.14.10",
+        "typescript": "^5.5.3"
+    }
+}
