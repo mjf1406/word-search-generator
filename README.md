@@ -32,8 +32,8 @@ The below are the options you can pass when creating a new word search.
 | NAME               | TYPE         | DEFAULT | DESCRIPTION                                                                                                  |
 | ------------------ | ------------ | ------- | ------------------------------------------------------------------------------------------------------------ |
 | fit                | Boolean      | false   | Whether cols and rows should be automatically determined to ensure all words are able to be placed           |
-| cols               | Integer      | "fit"   | Number of columns                                                                                            |
-| rows               | Integer      | "fit"   | Number of rows                                                                                               |
+| cols               | Integer      | 10      | Number of columns                                                                                            |
+| rows               | Integer      | 10      | Number of rows                                                                                               |
 | disabledDirections | Array.string | []      | Directions to disable (any of "N", "S", "E", "W", "NE", "NW", "SE" or "SW")                                  |
 | words              | Array.string | []      | The words to insert into the word search. Unless cols or rows is set to "fit", some words may not be placed. |
 | case               | String       | "upper" | The case of the letters (any one of "upper", "lower", "random")                                              |
