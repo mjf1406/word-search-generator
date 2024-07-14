@@ -37,7 +37,7 @@ The below are the options you can pass when creating a new word search.
 | disabledDirections | Array.string | []      | Directions to disable (any of "N", "S", "E", "W", "NE", "NW", "SE" or "SW")                              |
 | words              | Array.string | []      | The words to insert into the word search. Unless **fit** is set to `true`, some words may not be placed. |
 | case               | String       | "upper" | The case of the letters (any one of "upper", "lower", or "random")                                       |
-| sections           | Integer      | 0       | The number of sections that the word search should be divided into (any one of 4, 9, or 16)              |
+| sections           | Integer      | 0       | The number of sections that the word search should be divided into (any one of 0, 4, 9, or 16)           |
 | maxRetries         | Integer      | 10      | The number of times the word search should retry if not all words were inserted                          |
 
 ## Properties and Methods
