@@ -18,7 +18,7 @@ export type WordSearch = {
 }
 
 // ----- Options ------
-type Direction = "N" | "S" | "E" | "W" | "NE" | "NW" | "SE" | "SW";
+export type Direction = "N" | "S" | "E" | "W" | "NE" | "NW" | "SE" | "SW";
 export type Options = {
     fit: boolean,
     cols: number,
