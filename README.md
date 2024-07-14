@@ -29,16 +29,16 @@ const ws = new WordSearch(options)
 
 The below are the options you can pass when creating a new word search.
 
-| NAME               | TYPE         | DEFAULT | DESCRIPTION                                                                                                  |
-| ------------------ | ------------ | ------- | ------------------------------------------------------------------------------------------------------------ |
-| fit                | Boolean      | false   | Whether cols and rows should be automatically determined to ensure all words are able to be placed           |
-| cols               | Integer      | 10      | Number of columns                                                                                            |
-| rows               | Integer      | 10      | Number of rows                                                                                               |
-| disabledDirections | Array.string | []      | Directions to disable (any of "N", "S", "E", "W", "NE", "NW", "SE" or "SW")                                  |
-| words              | Array.string | []      | The words to insert into the word search. Unless cols or rows is set to "fit", some words may not be placed. |
-| case               | String       | "upper" | The case of the letters (any one of "upper", "lower", "random")                                              |
-| sections           | Integer      | 0       | The number of sections that the word search should be divided into (any one of 4, 9, 16)                     |
-| maxRetries         | Integer      | 10      | The number of times the word search should retry if not all words were inserted                              |
+| NAME               | TYPE         | DEFAULT | DESCRIPTION                                                                                              |
+| ------------------ | ------------ | ------- | -------------------------------------------------------------------------------------------------------- |
+| fit                | Boolean      | `false` | Whether cols and rows should be automatically determined to ensure all words are inserted                |
+| cols               | Integer      | 10      | Number of columns                                                                                        |
+| rows               | Integer      | 10      | Number of rows                                                                                           |
+| disabledDirections | Array.string | []      | Directions to disable (any of "N", "S", "E", "W", "NE", "NW", "SE" or "SW")                              |
+| words              | Array.string | []      | The words to insert into the word search. Unless **fit** is set to `true`, some words may not be placed. |
+| case               | String       | "upper" | The case of the letters (any one of "upper", "lower", or "random")                                       |
+| sections           | Integer      | 0       | The number of sections that the word search should be divided into (any one of 4, 9, or 16)              |
+| maxRetries         | Integer      | 10      | The number of times the word search should retry if not all words were inserted                          |
 
 ## Properties and Methods
 
